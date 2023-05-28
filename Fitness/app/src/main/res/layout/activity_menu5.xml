@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/arkaplan"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".Menu5Activity">
+
+    <ImageView
+        android:layout_width="334dp"
+        android:layout_height="155dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginRight="5dp"
+        android:src="@drawable/logo" />
+
+    <Button
+        android:id="@+id/menuu5"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:text="MENÜ 5"/>
+
+    <TextView
+        android:layout_width="307dp"
+        android:layout_height="38dp"
+        android:layout_marginLeft="80dp"
+        android:layout_marginRight="100dp"
+        android:background="@android:color/white"
+        android:text="Yumurta+Peynir+Zeytin+Çay"
+        android:textColor="@color/yazi_rengi"
+        android:textSize="@dimen/yazi_buyuklugu" />
+
+    <TextView
+        android:layout_width="354dp"
+        android:layout_height="239dp"
+        android:layout_marginTop="10dp"
+        android:background="@android:color/white"
+        android:text="Yumurtanın sarısı kalori miktarı 1 adet orta boy yumurta için 70 kcal değerindedir.Sarısına göre yüksek oranda protein içeren yumurta beyazı kalori değeri daha düşüktür. 1 adet orta boy yumurtanın akı 15 kaloridir.
+                   Ortalama kalınlıktaki ve 30 gram ağırlığındaki 1 dilim peynir (kibrit kutusu büyüklüğünde) 93 kcal değerindedir. Az yağlı beyaz peynir kalori değerleri ise şu şekildedir: 1 yarım dilim (12.5 gr) az yağlı beyaz peynir 23 kcal.
+                                                                            1 porsiyon ( 28 gr, 6 adet) siyah zeytin 27 kaloridir. 1 bardak şekersiz çayda 0 (kcal) kalori bulunur.
+
+1 bardak şekersiz çayda karbonhidrat bulunmazken, 0.07 gram protein bulunur.
+
+1 bardak şekersiz çay yağ, lif ve kolesterol içermez."
+        android:textColor="@color/yazilar" />
+
+</LinearLayout>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/arkaplan"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".MenuAksam2Activity">
+
+    <ImageView
+        android:layout_width="334dp"
+        android:layout_height="155dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginRight="5dp"
+        android:src="@drawable/logo" />
+
+    <Button
+        android:id="@+id/menuaksam2"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:text="MENÜ 2"/>
+
+    <TextView
+        android:layout_width="255dp"
+        android:layout_height="38dp"
+        android:layout_marginLeft="80dp"
+        android:layout_marginRight="100dp"
+        android:background="@android:color/white"
+        android:text="Salata+Çorba+Ekmek"
+        android:textColor="@color/yazi_rengi"
+        android:textSize="@dimen/yazi_buyuklugu" />
+
+
+    <TextView
+        android:layout_width="319dp"
+        android:layout_height="157dp"
+        android:layout_marginTop="10dp"
+        android:background="@android:color/white"
+        android:text="Küçük porsiyon salata 45 kalori civarındadır. Büyük porsiyon salata ise yaklaşık 90 kaloridir.                           1 kase çorba kaç kalori? Çorba Kalori Değeri: Bu besinin 100 gramında 57 kcal kalori, ayrıca besinin 1 Kepçe yani 100 gramlık miktarında Çorba 57 kalori bulunmaktadır.  Beyaz ekmeğin 100 gramında 238 kalori bulunmaktadır. Beyaz ekmeğin 1 porsiyonu (25 gr) 60 kaloridir. "
+        android:textColor="@color/yazilar" />
+
+</LinearLayout>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@drawable/arkaplan"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:layout_height="match_parent"
+    tools:context=".MenuAksam1Activity">
+
+    <ImageView
+        android:layout_width="334dp"
+        android:layout_height="155dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginRight="5dp"
+        android:src="@drawable/logo" />
+
+    <Button
+        android:id="@+id/btn_menuaksam1"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:text="MENÜ 1"/>
+
+    <TextView
+        android:layout_width="160dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="80dp"
+        android:layout_marginRight="100dp"
+        android:background="@android:color/white"
+        android:text="Salata+Çorba"
+        android:textColor="@color/yazi_rengi"
+        android:textSize="@dimen/yazi_buyuklugu" />
+
+    <TextView
+        android:layout_width="319dp"
+        android:layout_height="129dp"
+        android:layout_marginTop="10dp"
+        android:background="@android:color/white"
+        android:text="Küçük porsiyon salata 45 kalori civarındadır. Büyük porsiyon salata ise yaklaşık 90 kaloridir.                           1 kase çorba kaç kalori? Çorba Kalori Değeri: Bu besinin 100 gramında 57 kcal kalori, ayrıca besinin 1 Kepçe yani 100 gramlık miktarında Çorba 57 kalori bulunmaktadır."
+        android:textColor="@color/yazilar" />
+
+
+</LinearLayout>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/arkaplan"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".MenuAksam3Activity">
+
+    <ImageView
+        android:layout_width="334dp"
+        android:layout_height="155dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginRight="5dp"
+        android:src="@drawable/logo" />
+
+    <Button
+        android:id="@+id/menuaksam3"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:text="MENÜ 3"/>
+
+    <TextView
+        android:layout_width="225dp"
+        android:layout_height="38dp"
+        android:layout_marginLeft="80dp"
+        android:layout_marginRight="100dp"
+        android:background="@android:color/white"
+        android:text="Salata+Çorba+Tatlı"
+        android:textColor="@color/yazi_rengi"
+        android:textSize="@dimen/yazi_buyuklugu" />
+
+    <TextView
+        android:layout_width="340dp"
+        android:layout_height="189dp"
+        android:layout_marginTop="10dp"
+        android:background="@android:color/white"
+        android:text="Küçük porsiyon salata 45 kalori civarındadır. Büyük porsiyon salata ise yaklaşık 90 kaloridir.                           1 kase çorba kaç kalori? Çorba Kalori Değeri: Bu besinin 100 gramında 57 kcal kalori, ayrıca besinin 1 Kepçe yani 100 gramlık miktarında Çorba 57 kalori bulunmaktadır.  Bir dilim baklavanın 40 gram olduğundan yola çıkarsak, bir dilim baklava ortalama 173,6 kaloridir. Böylece sıkça merak edilen iki dilim baklava kaç kalori sorusunun cevabını da vermiş olalım; ortalama 347,2 kaloridir."
+        android:textColor="@color/yazilar" />
+
+</LinearLayout>

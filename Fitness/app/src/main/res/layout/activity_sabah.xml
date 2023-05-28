@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/arkaplan"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".SabahActivity">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="175dp"
+        android:layout_marginTop="3dp"
+        app:srcCompat="@drawable/logo" />
+
+    <Button
+        android:id="@+id/btn_menuu1"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:text="MENÜ 1"/>
+
+    <TextView
+        android:layout_width="250dp"
+        android:layout_height="38dp"
+        android:layout_marginLeft="80dp"
+        android:layout_marginRight="100dp"
+        android:background="@android:color/white"
+        android:text="Yumurta+Peynir+Zeytin"
+        android:textColor="@color/yazi_rengi"
+        android:textSize="@dimen/yazi_buyuklugu"/>
+
+    <Button
+        android:id="@+id/menuu2"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:text="MENÜ 2"/>
+
+    <TextView
+        android:layout_width="330dp"
+        android:layout_height="38dp"
+        android:layout_marginLeft="80dp"
+        android:layout_marginRight="100dp"
+        android:background="@android:color/white"
+        android:text="Yumurta+Peynir+Zeytin+Sebze"
+        android:textColor="@color/yazi_rengi"
+        android:textSize="@dimen/yazi_buyuklugu" />
+
+    <Button
+        android:id="@+id/menuu3"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:text="MENÜ 3"/>
+
+    <TextView
+        android:layout_width="325dp"
+        android:layout_height="38dp"
+        android:layout_marginLeft="80dp"
+        android:layout_marginRight="100dp"
+        android:background="@android:color/white"
+        android:text="Yumurta+Peynir+Zeytin+Börek"
+        android:textColor="@color/yazi_rengi"
+        android:textSize="@dimen/yazi_buyuklugu" />
+
+    <Button
+        android:id="@+id/menuu4"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:text="MENÜ 4"/>
+
+    <TextView
+        android:layout_width="312dp"
+        android:layout_height="38dp"
+        android:layout_marginLeft="80dp"
+        android:layout_marginRight="100dp"
+        android:background="@android:color/white"
+        android:text="Yumurta+Peynir+Zeytin+Tatlı"
+        android:textColor="@color/yazi_rengi"
+        android:textSize="@dimen/yazi_buyuklugu" />
+
+    <Button
+        android:id="@+id/menuu5"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:text="MENÜ 5"/>
+
+    <TextView
+        android:layout_width="307dp"
+        android:layout_height="38dp"
+        android:layout_marginLeft="80dp"
+        android:layout_marginRight="100dp"
+        android:background="@android:color/white"
+        android:text="Yumurta+Peynir+Zeytin+Çay"
+        android:textColor="@color/yazi_rengi"
+        android:textSize="@dimen/yazi_buyuklugu" />
+
+
+</LinearLayout>
